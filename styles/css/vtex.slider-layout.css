@@ -1,0 +1,18 @@
+.paginationDotsContainer {
+  justify-content: flex-end;
+  margin: 0 25px 25px 0;
+}
+.paginationDot {
+  height: 14px !important;
+  width: 14px !important;
+}
+.paginationDot--isActive {
+  border-radius: 20px;
+  width: 100px !important;
+  background-color: #000;
+}
+@media only screen and (max-width: 769px) {
+  .paginationDot {
+    display: none;
+  }
+}

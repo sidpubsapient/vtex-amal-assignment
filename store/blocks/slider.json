@@ -1,0 +1,55 @@
+{
+  "slider-layout#homepage": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["slider-layout#1", "slider-layout#2", "slider-layout#3"]
+  },
+
+  "slider-layout#1": {
+    "children": ["image#1"]
+  },
+
+  "image#1": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+      "maxHeight": 650,
+      "label": "Slider One"
+    }
+  },
+
+  "slider-layout#2": {
+    "children": ["image#2"]
+  },
+
+  "image#2": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+      "maxHeight": 650,
+      "label": "Slider Two"
+    }
+  },
+
+  "slider-layout#3": {
+    "children": ["image#3"]
+  },
+
+  "image#3": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+      "maxHeight": 650,
+      "label": "Slider Three"
+    }
+  }
+}
