@@ -1,0 +1,196 @@
+{
+  "flex-layout.row#features": {
+    "children": [
+      "flex-layout.col#feature1",
+      "flex-layout.col#feature2",
+      "flex-layout.col#feature3",
+      "flex-layout.col#feature4",
+      "flex-layout.col#feature5",
+      "flex-layout.col#feature6",
+      "flex-layout.col#feature7",
+      "flex-layout.col#feature8"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#feature1": {
+    "children": ["flex-layout.row#feature1Content"]
+  },
+
+  "flex-layout.row#feature1Content": {
+    "children": ["image#feature1Content", "rich-text#feature1Content"]
+  },
+
+  "image#feature1Content": {
+    "props": {
+      "src": "https://img.icons8.com/ios/50/000000/free-shipping.png",
+      "maxHeight": "45px"
+    }
+  },
+
+  "rich-text#feature1Content": {
+    "props": {
+      "text": "Free shipping",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#feature2": {
+    "children": ["flex-layout.row#feature2Content"]
+  },
+
+  "flex-layout.row#feature2Content": {
+    "children": ["image#feature2Content", "rich-text#feature2Content"]
+  },
+
+  "image#feature2Content": {
+    "props": {
+      "src": "https://img.icons8.com/ios/50/000000/sale.png",
+      "maxHeight": "45px"
+    }
+  },
+
+  "rich-text#feature2Content": {
+    "props": {
+      "text": "Offers up to 50% OFF",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#feature3": {
+    "children": ["flex-layout.row#feature3Content"]
+  },
+
+  "flex-layout.row#feature3Content": {
+    "children": ["image#feature3Content", "rich-text#feature3Content"]
+  },
+
+  "image#feature3Content": {
+    "props": {
+      "src": "https://img.icons8.com/ios/50/000000/warranty.png",
+      "maxHeight": "45px"
+    }
+  },
+
+  "rich-text#feature3Content": {
+    "props": {
+      "text": "Extended warranty",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#feature4": {
+    "children": ["flex-layout.row#feature4Content"]
+  },
+
+  "flex-layout.row#feature4Content": {
+    "children": ["image#feature4Content", "rich-text#feature4Content"]
+  },
+
+  "image#feature4Content": {
+    "props": {
+      "src": "https://img.icons8.com/dotty/80/000000/guarantee.png",
+      "maxHeight": "45px"
+    }
+  },
+
+  "rich-text#feature4Content": {
+    "props": {
+      "text": "Brand Warranty",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#feature5": {
+    "children": ["flex-layout.row#feature5Content"]
+  },
+
+  "flex-layout.row#feature5Content": {
+    "children": ["image#feature5Content", "rich-text#feature5Content"]
+  },
+
+  "image#feature5Content": {
+    "props": {
+      "src": "https://img.icons8.com/dotty/80/000000/money-box.png",
+      "maxHeight": "45px"
+    }
+  },
+
+  "rich-text#feature5Content": {
+    "props": {
+      "text": "No Interest 12 Installments",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#feature6": {
+    "children": ["flex-layout.row#feature6Content"]
+  },
+
+  "flex-layout.row#feature6Content": {
+    "children": ["image#feature6Content", "rich-text#feature6Content"]
+  },
+
+  "image#feature6Content": {
+    "props": {
+      "src": "https://img.icons8.com/wired/64/000000/factory.png",
+      "maxHeight": "45px"
+    }
+  },
+
+  "rich-text#feature6Content": {
+    "props": {
+      "text": "Factory Direct",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#feature7": {
+    "children": ["flex-layout.row#feature7Content"]
+  },
+
+  "flex-layout.row#feature7Content": {
+    "children": ["image#feature7Content", "rich-text#feature7Content"]
+  },
+
+  "image#feature7Content": {
+    "props": {
+      "src": "https://img.icons8.com/ios/64/000000/price-tag-euro.png",
+      "maxHeight": "45px"
+    }
+  },
+
+  "rich-text#feature7Content": {
+    "props": {
+      "text": "Exclusive Prices",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#feature8": {
+    "children": ["flex-layout.row#feature8Content"]
+  },
+
+  "flex-layout.row#feature8Content": {
+    "children": ["image#feature8Content", "rich-text#feature8Content"],
+    "props": {
+      "blockClass": "textSize"
+    }
+  },
+
+  "image#feature8Content": {
+    "props": {
+      "src": "https://img.icons8.com/ios/50/000000/qr-code--v2.png",
+      "maxHeight": "45px"
+    }
+  },
+
+  "rich-text#feature8Content": {
+    "props": {
+      "text": "Download App",
+      "blockClass": "deals"
+    }
+  }
+}
