@@ -67,7 +67,7 @@
         ],
         "props": {
             "preventVerticalStretch": "true",
-            "blockClass": "deals"
+            "blockClass": "bg-footer"
         }
     },
     "flex-layout.row#footer-left": {
