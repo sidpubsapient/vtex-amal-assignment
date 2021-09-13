@@ -1,0 +1,133 @@
+{
+    "footer": {
+        "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    },
+    "footer-layout.desktop": {
+        "children": [
+            "flex-layout.row#footer-menu-desktop",
+            "flex-layout.row#footer-2-desktop",
+            "flex-layout.row#footer-3-desktop"
+        ]
+    },
+    "flex-layout.row#footer-menu-desktop": {
+        "children": [
+            "vtex.menu@2.x:menu#homeFurnishing",
+            "vtex.menu@2.x:menu#mobileTablets",
+            "vtex.menu@2.x:menu#laptops",
+            "vtex.menu@2.x:menu#gaming",
+            "vtex.menu@2.x:menu#apparels",
+            "vtex.menu@2.x:menu#shoes"
+        ],
+        "props": {
+            "blockClass": "menu-row",
+            "paddingTop": 6,
+            "paddingBottom": 3
+        }
+    },
+
+    "social-networks": {
+        "props": {
+            "socialNetworks": [
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/vtexonline/"
+                },
+                {
+                    "name": "Instagram",
+                    "url": "https://www.instagram.com/vtextruecloud/"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/vtexonline"
+                },
+                {
+                    "name": "Youtube",
+                    "url": "https://www.youtube.com/user/VTEXTV"
+                }
+            ]
+        }
+    },
+
+    "flex-layout.row#footer-2-desktop": {
+        "children": ["accepted-payment-methods"],
+        "props": {
+            "blockClass": "payment-methods"
+        }
+    },
+    "accepted-payment-methods": {
+        "props": {
+            "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+        }
+    },
+
+    "flex-layout.row#footer-3-desktop": {
+        "children": [
+            "flex-layout.row#footer-left",
+            "flex-layout.row#footer-right"
+        ],
+        "props": {
+            "preventVerticalStretch": "true",
+            "blockClass": "deals"
+        }
+    },
+    "flex-layout.row#footer-left": {
+        "children": ["flex-layout.col#footer-left"],
+        "props": {
+            "horizontalAlign": "left",
+            "preventVerticalStretch": "false"
+        }
+    },
+    "flex-layout.col#footer-left": {
+        "children": ["rich-text#footer-left"]
+    },
+    "rich-text#footer-left": {
+        "props": {
+            "text": "&#169; 2021 Vtex. All Rights Reserved",
+            "blockClass": "footer"
+        }
+    },
+    "flex-layout.row#footer-right": {
+        "children": [
+            "flex-layout.col#terms-of-use",
+            "flex-layout.col#terms-of-sale",
+            "flex-layout.col#privacy-policy"
+        ],
+        "props": {
+            "horizontalAlign": "right",
+            "preventHorizontalStretch": "true",
+            "preventVerticalStretch": "false",
+            "colGap": "5",
+            "blockClass": "links"
+        }
+    },
+    "flex-layout.col#terms-of-use": {
+        "children": ["link#terms-of-use"]
+    },
+    "flex-layout.col#terms-of-sale": {
+        "children": ["link#terms-of-sale"]
+    },
+    "flex-layout.col#privacy-policy": {
+        "children": ["link#privacy-policy"]
+    },
+    "link#terms-of-use": {
+        "props": {
+            "href": "/terms-of-use",
+            "label": "Terms Of Use",
+            "blockClass": "footer"
+        }
+    },
+    "link#terms-of-sale": {
+        "props": {
+            "href": "/terms-of-sale",
+            "label": "Terms Of Sale",
+            "blockClass": "footer"
+        }
+    },
+    "link#privacy-policy": {
+        "props": {
+            "href": "/policy",
+            "label": "Privacy Policy",
+            "blockClass": "footer"
+        }
+    }
+}
