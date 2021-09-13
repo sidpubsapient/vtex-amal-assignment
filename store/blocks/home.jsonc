@@ -1,5 +1,104 @@
 {
   "store.home": {
-    "blocks": ["slider-layout#homepage"]
+    "blocks": [
+      "slider-layout#homepage",
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
+    ]
+  },
+
+  // Ending in 24 hours section DESKTOP starts here
+  "responsive-layout.desktop": {
+    "children": ["flex-layout.row#deal1", "list-context.product-list#desktop"]
+  },
+  "flex-layout.row#deal1": {
+    "children": [
+      "flex-layout.col#text-deal1heading-left",
+      "flex-layout.col#text-deal1heading-right"
+    ]
+  },
+  "flex-layout.col#text-deal1heading-left": {
+    "children": ["rich-text#title-left"]
+  },
+  "rich-text#title-left": {
+    "props": {
+      "text": "**Ending in 24hrs**"
+    }
+  },
+  "flex-layout.col#text-deal1heading-right": {
+    "children": ["rich-text#title-right"]
+  },
+  "rich-text#title-right": {
+    "props": {
+      "text": "[See all Deals](https://deepakworkspace--publicissapient.myvtex.com)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "anchorStyle"
+    }
+  },
+  "list-context.product-list#desktop": {
+    "blocks": ["product-summary.shelf#desktop"],
+    "children": ["slider-layout#desktop"],
+    "props": {
+      "hideUnavailableItems": true,
+      "category": "7/8"
+    }
+  },
+  "slider-layout#desktop": {
+    "props": {
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 2000,
+        "stopOnHover": true
+      },
+      "infinite": true
+    }
+  },
+  "product-summary.shelf#desktop": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+
+  // Ending in 24 hours section MOBILE starts here
+  "responsive-layout.mobile": {
+    "children": [
+      "rich-text#endingIn24Hours",
+      "list-context.product-list#mobile",
+      "rich-text#seeAllDetails"
+    ]
+  },
+  "rich-text#endingIn24Hours": {
+    "props": {
+      "text": "**Ending in 24hrs**"
+    }
+  },
+  "rich-text#seeAllDetails": {
+    "props": {
+      "text": "[See all Deals](https://deepakworkspace--publicissapient.myvtex.com)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "anchorStyle"
+    }
+  },
+  "list-context.product-list#mobile": {
+    "blocks": ["product-summary.shelf#mobile"],
+    "props": {
+      "hideUnavailableItems": true,
+      "category": "7",
+      "maxItems": "2"
+    }
+  },
+  "product-summary.shelf#mobile": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
   }
 }

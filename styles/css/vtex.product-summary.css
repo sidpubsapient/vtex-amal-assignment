@@ -1,0 +1,8 @@
+.element {
+  justify-content: space-between;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: baseline;
+}
