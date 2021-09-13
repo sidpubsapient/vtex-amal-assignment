@@ -1,0 +1,248 @@
+{
+    "vtex.menu@2.x:menu#homeFurnishing": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#homeFurnishing",
+            "menu-item#subCategory1",
+            "menu-item#subCategory2",
+            "menu-item#subCategory3",
+            "menu-item#subCategory4",
+            "menu-item#subCategory5",
+            "menu-item#subCategory6",
+            "menu-item#subCategory7",
+            "menu-item#subCategory8"
+        ]
+    },
+    "rich-text#homeFurnishing": {
+        "props": {
+            "text": "**Home & Furnishing**"
+        }
+    },
+    "vtex.menu@2.x:menu#mobileTablets": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#mobileTablets",
+            "menu-item#subCategory1",
+            "menu-item#subCategory2",
+            "menu-item#subCategory3",
+            "menu-item#subCategory4",
+            "menu-item#subCategory5",
+            "menu-item#subCategory6",
+            "menu-item#subCategory7",
+            "menu-item#subCategory8"
+        ]
+    },
+    "rich-text#mobileTablets": {
+        "props": {
+            "text": "**Mobile & Tablets**"
+        }
+    },
+    "vtex.menu@2.x:menu#laptops": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#laptops",
+            "menu-item#subCategory1",
+            "menu-item#subCategory2",
+            "menu-item#subCategory3",
+            "menu-item#subCategory4",
+            "menu-item#subCategory5",
+            "menu-item#subCategory6",
+            "menu-item#subCategory7",
+            "menu-item#subCategory8"
+        ]
+    },
+    "rich-text#laptops": {
+        "props": {
+            "text": "**Laptops & IT Acc.**"
+        }
+    },
+    "vtex.menu@2.x:menu#gaming": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#gaming",
+            "menu-item#subCategory1",
+            "menu-item#subCategory2",
+            "menu-item#subCategory3",
+            "menu-item#subCategory4",
+            "menu-item#subCategory5",
+            "menu-item#subCategory6",
+            "menu-item#subCategory7",
+            "menu-item#subCategory8"
+        ]
+    },
+    "rich-text#gaming": {
+        "props": {
+            "text": "**Gaming & Home AV**"
+        }
+    },
+    "vtex.menu@2.x:menu#apparels": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#apparels",
+            "menu-item#subCategory1",
+            "menu-item#subCategory2",
+            "menu-item#subCategory3",
+            "menu-item#subCategory4",
+            "menu-item#subCategory5",
+            "menu-item#subCategory6",
+            "menu-item#subCategory7",
+            "menu-item#subCategory8"
+        ]
+    },
+    "rich-text#apparels": {
+        "props": {
+            "text": "**Apparels**"
+        }
+    },
+    "vtex.menu@2.x:menu#shoes": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#shoes",
+            "menu-item#subCategory1",
+            "menu-item#subCategory2",
+            "menu-item#subCategory3",
+            "menu-item#subCategory4",
+            "menu-item#subCategory5",
+            "menu-item#subCategory6",
+            "menu-item#subCategory7",
+            "menu-item#subCategory8"
+        ]
+    },
+    "rich-text#shoes": {
+        "props": {
+            "text": "**Shoes**"
+        }
+    },
+    "menu-item#subCategory1": {
+        "props": {
+            "id": "menu-item-sub-category-1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sub Category 1",
+                "text": "Sub Category 1"
+            }
+        }
+    },
+    "menu-item#subCategory2": {
+        "props": {
+            "id": "menu-item-sub-category-2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sub Category 2",
+                "text": "Sub Category 2"
+            }
+        }
+    },
+    "menu-item#subCategory3": {
+        "props": {
+            "id": "menu-item-sub-category-3",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sub Category 3",
+                "text": "Sub Category 3"
+            }
+        }
+    },
+    "menu-item#subCategory4": {
+        "props": {
+            "id": "menu-item-sub-category-4",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sub Category 4",
+                "text": "Sub Category 4"
+            }
+        }
+    },
+    "menu-item#subCategory5": {
+        "props": {
+            "id": "menu-item-sub-category-5",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sub Category 5",
+                "text": "Sub Category 5"
+            }
+        }
+    },
+    "menu-item#subCategory6": {
+        "props": {
+            "id": "menu-item-sub-category-6",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sub Category 6",
+                "text": "Sub Category 6"
+            }
+        }
+    },
+    "menu-item#subCategory7": {
+        "props": {
+            "id": "menu-item-sub-category-7",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sub Category 7",
+                "text": "Sub Category 7"
+            }
+        }
+    },
+    "menu-item#subCategory8": {
+        "props": {
+            "id": "menu-item-sub-category-8",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sub Category 8",
+                "text": "Sub Category 8"
+            }
+        }
+    }
+}

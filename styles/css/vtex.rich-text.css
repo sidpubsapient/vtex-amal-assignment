@@ -1,5 +1,10 @@
 .paragraph--deals {
-  text-align: left !important;
-  font-size: 14px;
-  line-height: 1.4;
+    text-align: left !important;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.container--footer {
+    color: #ffffff;
+    text-align: center;
 }
