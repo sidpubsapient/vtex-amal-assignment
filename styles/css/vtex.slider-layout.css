@@ -16,6 +16,12 @@
   width: 40px;
 }
 
+/* CSS for Sales Ending in 24 hours Slider */
+
+.slideChildrenContainer--SalesEndingSlider {
+  padding: 0 10px;
+}
+
 @media only screen and (max-width: 769px) {
   .paginationDot {
     display: none;

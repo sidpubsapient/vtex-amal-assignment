@@ -1,5 +1,16 @@
 {
   "store.home": {
-    "blocks": ["slider-layout#homepage"]
+    "blocks": [
+      "slider-layout#homepage",
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
+    ]
+  },
+  "responsive-layout.desktop": {
+    "children": ["flex-layout.row#salesendin24hoursdesktop"]
+  },
+
+  "responsive-layout.mobile": {
+    "children": ["flex-layout.row#salesendin24hoursmobile"]
   }
 }
