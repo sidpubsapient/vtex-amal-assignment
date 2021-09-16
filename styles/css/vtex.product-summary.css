@@ -6,3 +6,20 @@
   display: flex;
   align-items: baseline;
 }
+
+/* Media Query Starts here */
+@media screen and (max-width: 600px) {
+  .nameContainer--product--name {
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  .brandName--product--name {
+    font-size: 14px;
+  }
+  .priceContainer--product--price {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+  }
+}
